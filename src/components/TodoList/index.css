@@ -1,0 +1,36 @@
+.App-div {
+  border: solid 2px #ed9121;
+  width: auto;
+  height: auto;
+  background-color: #155765;
+  border-radius: 6px;
+}
+.ul-todo {
+  margin: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 0;
+  margin: 10px 0 10px 0;
+  color: #ed9121;
+}
+li button {
+  display: block;
+  background-color: #ed9121;
+  height: 40px;
+  width: 190px;
+  border: none;
+  cursor: pointer;
+  color: #015249;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 6px;
+}
+li button:hover {
+  transition: ease-in 0.5s;
+  background-color: #155765;
+  color: #ed9121;
+  box-shadow: 0 0 5px #ed9121, 0 0 20px #ed9121;
+}
